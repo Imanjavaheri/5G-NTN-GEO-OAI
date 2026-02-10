@@ -1,6 +1,6 @@
 # 5G-NTN-GEO-OAI Daily Operations
 
-This repository packages a repeatable **start-of-day** and **end-of-day** workflow for running an OAI GEO NTN RFsim setup.
+This repository packages a workflow for running an OAI GEO NTN RFsim setup.
 
 ## What this repo includes
 
