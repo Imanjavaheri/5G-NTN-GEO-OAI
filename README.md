@@ -4,8 +4,8 @@ This repository packages a workflow for running an OAI GEO NTN RFsim setup.
 
 ## What this repo includes
 
-- `scripts/start_ntn_day.sh`: morning startup routine (cleanup + core start + verification + gNB/UE launch commands).
-- `scripts/stop_ntn_day.sh`: evening shutdown routine (RAN stop + core stop + cleanup + verification).
+- `scripts/start_ntn_day.sh`: startup routine (cleanup + core start + verification + gNB/UE launch commands).
+- `scripts/stop_ntn_day.sh`: shutdown routine (RAN stop + core stop + cleanup + verification).
 
 ## Prerequisites
 
