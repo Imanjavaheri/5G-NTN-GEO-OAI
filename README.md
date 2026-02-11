@@ -48,6 +48,7 @@ docker ps
 
 ```bash
 cd ~/openairinterface5g/cmake_targets/ran_build/build
+
 sudo ./nr-softmodem \
   -O ../../../ci-scripts/conf_files/gnb.sa.band254.u0.25prb.rfsim.ntn.conf \
   --rfsim \
