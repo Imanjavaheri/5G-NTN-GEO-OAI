@@ -44,11 +44,11 @@ docker ps
 
 ```bash
 cd ~/openairinterface5g/cmake_targets/ran_build/build
-
 sudo ./nr-softmodem \
   -O ../../../ci-scripts/conf_files/gnb.sa.band254.u0.25prb.rfsim.ntn.conf \
   --rfsim \
-  --rfsimulator.serveraddr server
+  --rfsimulator.serveraddr server \
+  --rfsimulator.prop_delay 238.74
 ```
 
 ### 4) Start UE (Terminal 2)
