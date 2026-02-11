@@ -23,6 +23,10 @@ This repository packages a workflow for running an OAI GEO NTN RFsim setup.
 ### 1) Clean ghost RF simulator signals
 
 ```bash
+# 1. Kill everything forcefully
+sudo killall -9 nr-softmodem nr-uesoftmodem
+
+# 2. DELETE THE SHARED MEMORY (Critical)
 sudo rm -f /dev/shm/oai_rfsim*
 sudo rm -f /tmp/rfsimulator*
 ```
